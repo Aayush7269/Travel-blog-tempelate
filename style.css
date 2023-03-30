@@ -167,3 +167,17 @@ main article{
     flex-direction: column;
     align-items: center;
  }
+ /* larger screen 1200 px */
+ /*  mediuum 768 screen to 1200 px */
+ /* smaller screen 780px */
+
+ 
+ @media (min-width:800px) 
+    {
+     .glb-msg  {
+        background-color: yellowgreen;
+        padding: 10px;
+     }
+         
+        
+ }
