@@ -1,0 +1,169 @@
+body{
+    margin: 0;
+}
+.container{
+    width:80%;
+    margin:auto;
+}
+.glb-msg  {
+    background-color: red;
+    padding: 10px;
+    
+}
+.glb-msg > div{
+     
+    display: flex;
+    justify-content: space-between;
+}
+.nav-bar{
+    background-color: blue;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-bar > div{
+     
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu{
+        display: flex;
+        justify-content: space-between;
+}
+ ul.menu {
+        list-style: none;
+    }
+.menu > li{
+    margin-left: 1rem
+}
+.menu > li:hover {
+    background: red;
+    cursor: pointer;
+}
+.hero{
+   background: url(./hero.jpg) center center;
+   background-size: cover;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.welcome{
+    background-color: rgba(19, 19, 18, 0.658);
+color: yellow;
+padding: 1rem 2rem;
+border-radius: 20%;
+
+}
+ 
+/* ====main content area */
+
+
+.main{
+    display: flex;
+    gap: 1rem;
+
+}
+.main-content{
+    width: 70%;
+}
+/* .art-content{
+    width: 30%
+} */
+main article{
+    display: flex;
+    border: 1px solid grey;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: -5px 5px 15px 5px rgb(146, 140, 140);
+    margin-bottom: 2rem;
+}
+.art-img{
+    max-width: 200px;
+    margin-right: 20px;
+}
+.title{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.btn-container {
+    display: flex;
+    justify-content: flex-end;
+}
+.btn-container button{
+    background-color: red;
+    border: none;
+    padding: 5px 12px;
+}
+.btn{
+    background: red;
+    border: none;
+    color: white;
+    padding : 10px;
+}
+
+/* aside */
+ .sidelinks{
+    width:30%;
+ }
+ 
+ .country{
+    background-color: blueviolet;
+    padding: 1rem;
+    border: radius 5px;
+    margin-bottom:3rem;
+ }
+ .year{
+    background-color: brown;
+    padding: 1rem;
+
+ }
+ .recc{
+  
+    background-color: rgba(68, 215, 68, 0.89);
+ }
+ .card-list{
+    margin-top: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-around;
+    padding: 1rem;
+
+ }
+ .card
+ {
+    width: 300px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    box-shadow: -5px 10px 10px 5px rgba(58, 158, 58, 0.484);
+    background: white;
+    padding: 1rem;
+    flex-grow: 1;
+ }
+
+.card img{
+    border-radius: 10px 10px 0px 0px;
+}
+.card button
+{
+    width: 100%;
+    padding: 10px;
+    background: red;
+    border: none;
+
+}
+ footer{
+    min-height: 100px;
+    background-color: black;
+    color: white;
+    padding: 3rem;
+    margin-top: 2rem;
+ }
+ .subscription {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
